@@ -1,5 +1,5 @@
 -- アクティビティログ
-drop table CM_ACLG cascade;
+-- drop table CM_ACLG cascade;
 
 create table CM_ACLG (
   AL_IDACTV INT not null comment 'ID'
