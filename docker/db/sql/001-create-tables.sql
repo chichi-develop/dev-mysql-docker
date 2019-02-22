@@ -23,3 +23,9 @@ create table cm_aclg (
   , al_nmtnto VARCHAR(200) comment '担当者名'
   , constraint cm_aclg_pkc primary key (al_idactv)
 ) comment 'アクティビティログ' ;
+
+create index cm_aclg_I01
+  on cm_aclg(al_nmactv,al_cdsqsk);
+ 
+create index cm_aclg_I02
+  on cm_aclg(al_dtactv,al_nmactv,al_cdsqsk);
