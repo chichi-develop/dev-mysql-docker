@@ -1,6 +1,6 @@
 -- アクティビティログ
 --* BackupToTempTable
-drop table cm_aclg cascade;
+--* drop table cm_aclg cascade;
 
 --* RestoreFromTempTable
 create table cm_aclg (
