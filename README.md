@@ -3,7 +3,7 @@
 ### docker起動
 
 ```bash
-docker-compose up -d
+docker-compose up -d　
 ```
 
 ### docker起動確認
@@ -11,12 +11,6 @@ docker-compose up -d
 
 ```
 docker-compose ps
-```
-
-### DB初期化(シェル実行)
-
-```bash
-./init-mysql.sh
 ```
 
 ## 確認
