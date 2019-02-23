@@ -7,7 +7,7 @@ create table cm_aclg (
   al_idactv INT not null AUTO_INCREMENT comment 'ID'
   , al_nmactv VARCHAR(40) not null comment 'アクティビティ区分名'
   , al_noactv INT not null comment 'アクティビティ番号'
-  , al_dtactvAL DATE not null comment 'アクティビティ日付'
+  , al_dtactv DATE not null comment 'アクティビティ日付'
   , al_cdsqsk VARCHAR(8) comment '請求先読者番号'
   , al_nmsqsk VARCHAR(200) not null comment '請求先顧客名'
   , al_nmsqbu VARCHAR(200) comment '請求先部署名'
