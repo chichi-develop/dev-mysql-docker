@@ -1,8 +1,8 @@
 -- アクティビティログ
---* BackupToTempTable
---* drop table cm_aclg cascade;
+-- BackupToTempTable
+-- drop table cm_aclg cascade;
 
---* RestoreFromTempTable
+-- RestoreFromTempTable
 create table cm_aclg (
   al_idactv INT not null AUTO_INCREMENT comment 'ID'
   , al_nmactv VARCHAR(40) not null comment 'アクティビティ区分名'
